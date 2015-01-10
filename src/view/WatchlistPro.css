@@ -1,0 +1,69 @@
+
+.split-pane {
+    -fx-padding: 0;
+    -fx-border-width: 0;
+    -fx-background-color: derive(grey, 100%);
+}
+
+.darkList {
+    -fx-background-color: derive(grey, -60%);
+}
+
+.darkList .list-cell {
+    -fx-padding: 6 0 0 13;
+    -fx-background-color: derive(grey, -60%);
+    -fx-text-fill: lightgrey;
+}
+
+.darkList .list-cell:focused {
+    -fx-text-fill: white;
+}
+
+.table-view {
+    -fx-border-width: 0;
+    -fx-border-color: red;
+}
+
+/*
+.table-column {
+
+}
+*/
+
+
+.text-area {
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+}
+
+.text-area, .text-field {
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+}
+
+.text-area {
+    -fx-padding: 2;
+    -fx-font-weight: normal;
+}
+
+.text-field {
+    -fx-padding: 3 6 3 6;
+}
+
+.search-field {
+    -fx-padding: 3 20 3 20;
+}
+
+.label {
+/*
+    -fx-text-fill: black;
+*/
+    -fx-text-fill: derive(grey, -20%);
+    -fx-font-size: 12px;
+    -fx-font-weight: normal;
+}
+
+.button {
+    -fx-text-fill: derive(grey, -20%);
+    -fx-font-size: 12px;
+}
